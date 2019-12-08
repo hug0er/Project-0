@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 2px solid black;
+}
+.footer .list {
+  background: #ccf9f3;
+  color: #202524;
+}
+.text-home,
+.title-home {
+  font-family: Arial;
+}
+.title-home {
+  font-weight: bold;
+}

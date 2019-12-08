@@ -1,0 +1,25 @@
+$footer-color: #CCF9F3;
+$footer-font-color: #202524;
+
+
+.footer {
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 2px solid black;
+    .list {
+        background : $footer-color;
+        color : $footer-font-color;
+    }
+}
+
+.text-home{
+    font-family: Arial;
+    
+
+}
+
+.title-home{
+    @extend .text-home;
+    
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+
+
+body{
+    padding: 5px 5px 5px 5px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    min-width: 100% ;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+.paragraph {
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.header{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+
+}
+
+.center{
+    text-align: center;
+}
+
+#home-button{
+    background: #F1F1BF;
+    border: solid 1px black;
+}
+
+@media (min-width: 700px) {
+    .image-head {
+        width: 650px; 
+        height:auto;
+    }
+}
+
+@media (max-width: 699px) {
+    .image-head {
+        width: 300px; 
+        height:auto;
+
+    }
+}
